@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhixi.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhixi.pojo.User">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="version" column="version" jdbcType="INTEGER"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+        <result property="deleted" column="deleted" jdbcType="INTEGER"/>
+        <result property="createAt" column="create_at" jdbcType="VARCHAR"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="updateAt" column="update_at" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,age,
+        email,version,create_time,
+        update_time,deleted,create_at,
+        password,update_at,username
+    </sql>
+    <insert id="insertUser" keyColumn="id" keyProperty="id" parameterType="com.zhixi.pojo.User" useGeneratedKeys="true">
+        insert into user
+        ( id, username, password
+        , name, age, email, address
+        , version, create_time, update_time
+        , deleted, create_at, update_at)
+        values ( #{id,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}
+               , #{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER}, #{email,jdbcType=VARCHAR}
+               , #{address,jdbcType=VARCHAR}
+               , #{version,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+               , #{deleted,jdbcType=INTEGER}, #{createAt,jdbcType=VARCHAR}, #{updateAt,jdbcType=VARCHAR})
+    </insert>
+
+    <select id="selectByIdUser" resultMap="BaseResultMap">
+        select *
+        from user
+        where id = #{id}
+    </select>
+</mapper>

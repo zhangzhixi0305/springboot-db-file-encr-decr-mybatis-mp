@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="138b229b-08d4-4197-a631-30ee37e208aa" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-mapper" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\StudySoftware\Maven\apache-maven-3.6.3\maven3" />
+        <option name="mavenHome" value="D:/StudySoftware/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\StudySoftware\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MH5VAjP02ZfiOLslrzRMBRtnOo" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="jdk1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/springboot-db-file-encr-decr-mybatis/src/main/java/com/zhixi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringBoot对数据库字段加密解密\sql" />
+      <recent name="E:\SpringBoot对数据库字段加密解密\springboot-db-file-encr-decr-mybatis\src\main\resources" />
+      <recent name="E:\SpringBoot对数据库字段加密解密\springboot-db-file-encr-decr-mybatis\src\main\java\com\zhixi" />
+      <recent name="E:\SpringBoot对数据库字段加密解密\springboot-db-file-encr-decr-mybatisplus\src\main\java\com\zhixi" />
+      <recent name="E:\SpringBoot对数据库字段加密解密\springboot-db-file-encr-decr-mybatisplus\sql" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SpringBoot对数据库字段加密解密\springboot-db-file-encr-decr-mybatis\src\main\resources\mappers\com\zhixi\mapper" />
+      <recent name="E:\SpringBoot对数据库字段加密解密\springboot-db-file-encr-decr-mybatis\src\main\resources\mappers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhixi.controller" />
+      <recent name="com.zhixi.handlers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootDbFileEncrDecrMybatisApplication">
+    <configuration name="SpringbootDbFileEncrDecrMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Mybatis对数据库字段加密解密" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhixi.SpringbootDbFileEncrDecrMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootDbFileEncrDecrMybatisplusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MybatisPlus对数据库字段加密解密" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhixi.SpringbootDbFileEncrDecrMybatisplusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="138b229b-08d4-4197-a631-30ee37e208aa" name="变更" comment="" />
+      <created>1677411690500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677411690500</updated>
+      <workItem from="1677411691715" duration="928000" />
+      <workItem from="1677420123287" duration="605000" />
+      <workItem from="1677423445324" duration="2407000" />
+      <workItem from="1677459774530" duration="7227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
