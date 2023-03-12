@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-db-file-encr-decr-mybatisplus/MybatisPlus对数据库字段加密解密.iml" filepath="$PROJECT_DIR$/springboot-db-file-encr-decr-mybatisplus/MybatisPlus对数据库字段加密解密.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-db-file-encr-decr-mybatis/Mybatis对数据库字段加密解密.iml" filepath="$PROJECT_DIR$/springboot-db-file-encr-decr-mybatis/Mybatis对数据库字段加密解密.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-data-desensitization-intro/数据脱敏.iml" filepath="$PROJECT_DIR$/springboot-data-desensitization-intro/数据脱敏.iml" />
     </modules>
   </component>
 </project>

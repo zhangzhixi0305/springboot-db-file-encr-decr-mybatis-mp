@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="数据脱敏" />
         <module name="Mybatis对数据库字段加密解密" />
         <module name="MybatisPlus对数据库字段加密解密" />
       </profile>
@@ -14,12 +15,14 @@
     <bytecodeTargetLevel>
       <module name="MybatisPlus对数据库字段加密解密" target="1.8" />
       <module name="Mybatis对数据库字段加密解密" target="1.8" />
+      <module name="数据脱敏" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MybatisPlus对数据库字段加密解密" options="-parameters" />
       <module name="Mybatis对数据库字段加密解密" options="-parameters" />
+      <module name="数据脱敏" options="-parameters" />
     </option>
   </component>
 </project>

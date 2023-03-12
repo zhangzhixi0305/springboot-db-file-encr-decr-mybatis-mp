@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -34,6 +37,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\StudySoftware\Maven\apache-maven-3.6.3\maven3" />
         <option name="mavenHome" value="D:/StudySoftware/Maven/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\StudySoftware\Maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -61,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/springboot-db-file-encr-decr-mybatis/src/main/java/com/zhixi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-data-desensitization-intro" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -70,6 +74,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -98,7 +103,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootDbFileEncrDecrMybatisApplication">
+  <component name="RunManager" selected="Spring Boot.SpringbootDataDesensitizationIntroApplication">
+    <configuration name="SpringbootDataDesensitizationIntroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="数据脱敏" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhixi.SpringbootDataDesensitizationIntroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootDbFileEncrDecrMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Mybatis对数据库字段加密解密" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhixi.SpringbootDbFileEncrDecrMybatisApplication" />
@@ -126,6 +138,7 @@
       <workItem from="1677420123287" duration="605000" />
       <workItem from="1677423445324" duration="2407000" />
       <workItem from="1677459774530" duration="7227000" />
+      <workItem from="1678599526494" duration="28000" />
     </task>
     <servers />
   </component>

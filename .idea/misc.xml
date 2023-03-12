@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/springboot-db-file-encr-decr-mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-db-file-encr-decr-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-data-desensitization-intro/pom.xml" />
       </list>
     </option>
   </component>
